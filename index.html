@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto bootstrap</title>
+    <link rel="stylesheet" href="./Lib/bootstrap.min.css">
+
+    <style>
+       
+    header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.nav-link{
+    text-align: center;
+    color: #218ee7;
+}
+
+.nav-link:hover{
+    background-color: #218ee7;
+}
+
+.navbar{
+    border-bottom: 1px solid #ccc;
+}
+
+header{
+    margin-bottom: 2rem;
+}
+
+#inicio{
+    margin-bottom: 3rem;
+}
+
+footer{
+    margin-top: 3rem;;
+}
+
+.col-sm-12, .col-md-6, .col-lg-4{
+    margin-bottom: 2rem;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+    <div class="navbar navbar-expand-lg">
+        <div class="container">
+            <h1>Natureza</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" >
+                <span class="navbar-toggles-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+                <li class="nav-item"><a class="nav-link" href="#">Fotos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Animais</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    
+                
+            </ul>
+        </nav>
+        </div>
+    </div>
+</header>   
+
+  <div class="container" id="inicio">
+    <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2023/10/24/08/47/bird-8337757_1280.jpg" alt="imagem 1">
+            </div>
+
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2023/09/22/10/56/goldfinch-8268805_1280.jpg" alt="imagem 2">
+            </div>
+
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2023/11/06/06/50/parrot-8368951_1280.png" alt="imagem 3">
+            </div>
+        </div>
+
+        <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+        </div>
+
+
+    </div>
+  </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+            <header class="card-header">
+                Descrição
+            </header>
+                    <img src="https://via.placeholder.com/300" class="card--img-top" alt="Imagem 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Item 1</h5>
+                        <p class="card-text">Descrição do item 4</p>
+                        <a href="" class="btn btn-primary">Leia mais</a>
+
+                    </div>
+            
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        Descrição
+                    </header>
+                    <img src="https://via.placeholder.com/300" class="card--img-top" alt="Imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title"> Item 2</h5>
+                        <p class="card-text">Descrição do item 5</p>
+                        <a href="" class="btn btn-primary">Leia mais</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        Descrição
+                    </header>
+                    <img src="https://via.placeholder.com/300" class="card--img-top" alt="Imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title"> Item 3</h5>
+                        <p class="card-text">Descrição do item 5</p>
+                        <a href="" class="btn btn-primary">Leia mais</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        Descrição
+                    </header>
+                    <img src="https://via.placeholder.com/300" class="card--img-top" alt="Imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title"> Item 4</h5>
+                        <p class="card-text">Descrição do item 5</p>
+                        <a href="" class="btn btn-primary">Leia mais</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        Descrição
+                    </header>
+                    <img src="https://via.placeholder.com/300" class="card--img-top" alt="Imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title"> Item 5</h5>
+                        <p class="card-text">Descrição do item 5</p>
+                        <a href="" class="btn btn-primary">Leia mais</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        Descrição
+                    </header>
+                    <img src="https://via.placeholder.com/300" class="card--img-top" alt="Imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title"> Item 6</h5>
+                        <p class="card-text">Descrição do item 5</p>
+                        <a href="" class="btn btn-primary">Leia mais</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./Lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
